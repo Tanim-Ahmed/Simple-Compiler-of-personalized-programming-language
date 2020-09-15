@@ -1,0 +1,49 @@
+
+function @@func_name LP   RP
+{
+int tanimkk comma  tanimbb comma tanimcc comma tanimkk comma tanimb comma tanimaade comma tanimb sc
+tanimaa = 80 sc
+tanimaad = 78 sc
+tanimaade = 99 sc
+~++ 8 ~++ sc
+1 add 8 div 4 mult 4 sc
+18 sub 15 add 8 div 2 mult 5 sc
+IF LP 5 add 3 sub 8 RP
+	{
+		12 add 8 div 2 sc
+	}
+	
+IF LP 5 add 8 RP
+	{
+		12 add 8 div 2 sc
+	}
+
+IF LP 7 << 5 RP
+	{
+		2 add 7 add 6 mult 2 sub 18 div 3 sc
+	}
+ELSE
+	{
+		6 add 8 div 4 add 2 mult 3 sub 1 sc
+	}
+	
+IF LP 7 >> 5 RP
+	{
+		2 add 7 add 6 mult 2 sub 18 div 3 sc
+	}
+ELSE
+	{
+		6 add  8 div 4 add 2 mult 3 sub 1 sc
+	
+FOR LP 2 : 6 RP { 4 add 2 }
+
+WHILE LP 0 >> 5 RP { 4 add 2 }
+
+select LP 2 RP { CASE 1 : 4 add 2 sc CASE 2 : 3 add 2 sc }                                         
+//This is a single comment  
+/m/This is a multi
+line comment
+/m/
+
+	
+}
